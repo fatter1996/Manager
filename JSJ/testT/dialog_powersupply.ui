@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_PowerSupply</class>
+ <widget class="QDialog" name="Dialog_PowerSupply">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>261</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(198, 210, 218);</string>
+  </property>
+  <widget class="QTreeView" name="treeView">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>431</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="UpdateButton">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>230</y>
+     <width>75</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color: rgb(240, 240, 240);}
+QPushButton{border:1px groove gray;border-radius:4px;padding:2px 4px;border-style:outset;}
+QPushButton:hover{background-color: rgb(229, 241, 251);color:black}
+QPushButton:pressed{background-color: rgb(204, 228, 247);border-style:inset}
+QPushButton{background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(250, 250, 250, 255));}</string>
+   </property>
+   <property name="text">
+    <string>刷新状态</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CloseButton">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>230</y>
+     <width>75</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color: rgb(240, 240, 240);}
+QPushButton{border:1px groove gray;border-radius:4px;padding:2px 4px;border-style:outset;}
+QPushButton:hover{background-color: rgb(229, 241, 251);color:black}
+QPushButton:pressed{background-color: rgb(204, 228, 247);border-style:inset}
+QPushButton{background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(250, 250, 250, 255));}</string>
+   </property>
+   <property name="text">
+    <string>关闭</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="PowerButton">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>75</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color: rgb(240, 240, 240);}
+QPushButton{border:1px groove gray;border-radius:4px;padding:2px 4px;border-style:outset;}
+QPushButton:hover{background-color: rgb(229, 241, 251);color:black}
+QPushButton:pressed{background-color: rgb(204, 228, 247);border-style:inset}
+QPushButton{background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(250, 250, 250, 255));}</string>
+   </property>
+   <property name="text">
+    <string>设置有电</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TDButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>230</y>
+     <width>75</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{background-color: rgb(240, 240, 240);}
+QPushButton{border:1px groove gray;border-radius:4px;padding:2px 4px;border-style:outset;}
+QPushButton:hover{background-color: rgb(229, 241, 251);color:black}
+QPushButton:pressed{background-color: rgb(204, 228, 247);border-style:inset}
+QPushButton{background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(220, 220, 220, 255), stop:1 rgba(250, 250, 250, 255));}</string>
+   </property>
+   <property name="text">
+    <string>设置停电</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

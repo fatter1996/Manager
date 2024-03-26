@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>jsj_logindlg</class>
+ <widget class="QDialog" name="jsj_logindlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>568</width>
+    <height>590</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog#jsj_logindlg{
+	border-image: url(:/new/jsj/rc/登录界面/登录背景.png);
+	background-color: rgb(2, 52, 96);
+
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>60</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/jsj/rc/登录界面/叉号.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>400</y>
+     <width>331</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>OpenHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/jsj/rc/登录界面/登录按钮.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="shortcut">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>237</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>31</width>
+     <height>21</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>31</width>
+     <height>21</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/jsj/rc/登录界面/用户名.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>158</x>
+     <y>232</y>
+     <width>290</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>290</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>290</width>
+     <height>61</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid #1bd1d3; /* 边框宽度为1px，颜色为#A0A0A0 */
+color: rgb(255, 255, 255);
+	border-radius: 3px; /* 边框圆角 */
+	padding-left: 5px; /* 文本距离左边界有5px */
+
+font: 14pt &quot;黑体&quot;;
+	background-color: rgb(2, 52, 96);
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>请输入账号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>158</x>
+     <y>281</y>
+     <width>290</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>290</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>290</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid #1bd1d3; /* 边框宽度为1px，颜色为#A0A0A0 */
+color: rgb(255, 255, 255);
+	border-radius: 3px; /* 边框圆角 */
+	padding-left: 5px; /* 文本距离左边界有5px */
+
+font: 14pt &quot;黑体&quot;;
+	background-color: rgb(2, 52, 96);
+</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Normal</enum>
+   </property>
+   <property name="placeholderText">
+    <string>请输入密码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>286</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>31</width>
+     <height>21</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>31</width>
+     <height>21</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/jsj/rc/登录界面/密码.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

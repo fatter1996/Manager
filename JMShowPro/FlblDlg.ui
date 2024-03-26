@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CFLBLDlg</class>
+ <widget class="QDialog" name="CFLBLDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>103</width>
+    <height>128</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::RightToLeft</enum>
+  </property>
+  <widget class="QPushButton" name="pushButton_CQFLBL">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>1</y>
+     <width>65</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.954273, stop:0 rgba(255, 255, 255, 255), stop:0.477273 rgba(227, 227, 227, 255), stop:1 rgba(230, 230, 230, 255));
+	border-style: outset;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: black;
+}
+QPushButton::hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(225, 225, 225, 255), stop:0.494318 rgba(198, 198, 198, 255), stop:1 rgba(225, 225, 225, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: blue;
+}
+
+QPushButton::pressed
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(185, 185, 185, 255), stop:0.494318 rgba(163, 163, 163, 255), stop:1 rgba(172, 172, 172, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	padding-left:2px;
+    padding-top:1px;
+}</string>
+   </property>
+   <property name="text">
+    <string>岔前不良</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_FWFLBL">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>63</y>
+     <width>65</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.954273, stop:0 rgba(255, 255, 255, 255), stop:0.477273 rgba(227, 227, 227, 255), stop:1 rgba(230, 230, 230, 255));
+	border-style: outset;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: black;
+}
+QPushButton::hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(225, 225, 225, 255), stop:0.494318 rgba(198, 198, 198, 255), stop:1 rgba(225, 225, 225, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: blue;
+}
+
+QPushButton::pressed
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(185, 185, 185, 255), stop:0.494318 rgba(163, 163, 163, 255), stop:1 rgba(172, 172, 172, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	padding-left:2px;
+    padding-top:1px;
+}</string>
+   </property>
+   <property name="text">
+    <string>反位不良</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_DWFLBL">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>32</y>
+     <width>65</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.954273, stop:0 rgba(255, 255, 255, 255), stop:0.477273 rgba(227, 227, 227, 255), stop:1 rgba(230, 230, 230, 255));
+	border-style: outset;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: black;
+}
+QPushButton::hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(225, 225, 225, 255), stop:0.494318 rgba(198, 198, 198, 255), stop:1 rgba(225, 225, 225, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: blue;
+}
+
+QPushButton::pressed
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(185, 185, 185, 255), stop:0.494318 rgba(163, 163, 163, 255), stop:1 rgba(172, 172, 172, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	padding-left:2px;
+    padding-top:1px;
+}</string>
+   </property>
+   <property name="text">
+    <string>定位不良</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_FLBL">
+   <property name="geometry">
+    <rect>
+     <x>3</x>
+     <y>1</y>
+     <width>65</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.954273, stop:0 rgba(255, 255, 255, 255), stop:0.477273 rgba(227, 227, 227, 255), stop:1 rgba(230, 230, 230, 255));
+	border-style: outset;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: black;
+}
+QPushButton::hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(225, 225, 225, 255), stop:0.494318 rgba(198, 198, 198, 255), stop:1 rgba(225, 225, 225, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: blue;
+}
+
+QPushButton::pressed
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(185, 185, 185, 255), stop:0.494318 rgba(163, 163, 163, 255), stop:1 rgba(172, 172, 172, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	padding-left:2px;
+    padding-top:1px;
+}</string>
+   </property>
+   <property name="text">
+    <string>分路不良</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_OK">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>95</y>
+     <width>46</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.954273, stop:0 rgba(255, 255, 255, 255), stop:0.477273 rgba(227, 227, 227, 255), stop:1 rgba(230, 230, 230, 255));
+	border-style: outset;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: black;
+}
+QPushButton::hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(225, 225, 225, 255), stop:0.494318 rgba(198, 198, 198, 255), stop:1 rgba(225, 225, 225, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: blue;
+}
+
+QPushButton::pressed
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(185, 185, 185, 255), stop:0.494318 rgba(163, 163, 163, 255), stop:1 rgba(172, 172, 172, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	padding-left:2px;
+    padding-top:1px;
+}</string>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Cancel">
+   <property name="geometry">
+    <rect>
+     <x>51</x>
+     <y>95</y>
+     <width>46</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.954273, stop:0 rgba(255, 255, 255, 255), stop:0.477273 rgba(227, 227, 227, 255), stop:1 rgba(230, 230, 230, 255));
+	border-style: outset;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: black;
+}
+QPushButton::hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(225, 225, 225, 255), stop:0.494318 rgba(198, 198, 198, 255), stop:1 rgba(225, 225, 225, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: blue;
+}
+
+QPushButton::pressed
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(185, 185, 185, 255), stop:0.494318 rgba(163, 163, 163, 255), stop:1 rgba(172, 172, 172, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	padding-left:2px;
+    padding-top:1px;
+}</string>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_CQFLBL">
+   <property name="geometry">
+    <rect>
+     <x>72</x>
+     <y>2</y>
+     <width>25</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox::indicator:unchecked
+{
+	image: url(:/Pictures/UnChecked.jpg);
+}
+QCheckBox::indicator:checked
+{
+	image: url(:/Pictures/Checked.jpg);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_DWFLBL">
+   <property name="geometry">
+    <rect>
+     <x>72</x>
+     <y>34</y>
+     <width>25</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox::indicator:unchecked
+{
+	image: url(:/Pictures/UnChecked.jpg);
+}
+QCheckBox::indicator:checked
+{
+	image: url(:/Pictures/Checked.jpg);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_FWFLBL">
+   <property name="geometry">
+    <rect>
+     <x>72</x>
+     <y>65</y>
+     <width>25</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox::indicator:unchecked
+{
+	image: url(:/Pictures/UnChecked.jpg);
+}
+QCheckBox::indicator:checked
+{
+	image: url(:/Pictures/Checked.jpg);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_FLBL">
+   <property name="geometry">
+    <rect>
+     <x>72</x>
+     <y>2</y>
+     <width>25</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QCheckBox::indicator:unchecked
+{
+	image: url(:/Pictures/UnChecked.jpg);
+}
+QCheckBox::indicator:checked
+{
+	image: url(:/Pictures/Checked.jpg);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

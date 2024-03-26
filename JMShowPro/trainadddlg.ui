@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CTrainAddDlg</class>
+ <widget class="QDialog" name="CTrainAddDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>384</width>
+    <height>251</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>车次号窗口增加</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Pic.qrc">
+    <normaloff>:/Pictures/icon.png</normaloff>:/Pictures/icon.png</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>21</y>
+     <width>60</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>车 次 号：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>21</y>
+     <width>54</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>类   型：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>21</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>列车</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>调车</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>54</width>
+     <height>12</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>行走方向：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>右行</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>左行</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>60</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>编组长度：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>60</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>8组编组</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16组编组</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>101</y>
+     <width>60</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>牵引类型：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_4">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>100</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>电力</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>非电力</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>21</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>101</y>
+     <width>60</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>超限信息：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_5">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>100</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>无超限</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>一级超限</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>二级超限</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>三级超限</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>超级超限</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>60</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>列车类型：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_6">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>140</y>
+     <width>281</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>列车速度控制：</string>
+   </property>
+  </widget>
+  <widget class="QSlider" name="horizontalSlider">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>190</y>
+     <width>151</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>100</number>
+   </property>
+   <property name="value">
+    <number>50</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>190</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>50km/s</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>190</y>
+     <width>41</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>250km/s</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>170</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>150km/h</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>220</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+   <property name="default">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>220</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Pic.qrc"/>
+ </resources>
+ <connections/>
+</ui>

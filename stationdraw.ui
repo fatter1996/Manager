@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CStationDraw</class>
+ <widget class="QWidget" name="CStationDraw">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1280</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <action name="XHJZDSAction">
+   <property name="text">
+    <string>禁止信号断丝</string>
+   </property>
+  </action>
+  <action name="XHYXDSAction">
+   <property name="text">
+    <string>允许信号断丝</string>
+   </property>
+  </action>
+  <action name="XH_L">
+   <property name="text">
+    <string>绿灯</string>
+   </property>
+  </action>
+  <action name="XH_U">
+   <property name="text">
+    <string>XH_U</string>
+   </property>
+  </action>
+  <action name="XH_B">
+   <property name="text">
+    <string>XH_B</string>
+   </property>
+  </action>
+  <action name="XH_YB">
+   <property name="text">
+    <string>XH_YB</string>
+   </property>
+  </action>
+  <action name="XHFaultRecover">
+   <property name="text">
+    <string>信号故障恢复</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

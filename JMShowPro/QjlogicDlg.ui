@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CQjlogicDlg</class>
+ <widget class="QDialog" name="CQjlogicDlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>224</height>
+   </rect>
+  </property>
+  <widget class="QLabel" name="label_Station">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>18</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>车站</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_Station">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>15</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:solid;
+border-width: 4px;
+border-color:qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(122, 122, 122, 255), stop:0.596591 rgba(194, 194, 194, 255), stop:0.602273 rgba(65, 65, 65, 255), stop:1 rgba(65, 65, 65, 255)) qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 rgba(184, 184, 184, 255), stop:0.636364 rgba(231, 231, 231, 255), stop:0.647727 rgba(170, 170, 170, 255), stop:1 rgba(170, 170, 170, 255)) qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(184, 184, 184, 255), stop:0.636364 rgba(231, 231, 231, 255), stop:0.647727 rgba(170, 170, 170, 255), stop:1 rgba(170, 170, 170, 255)) qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 rgba(122, 122, 122, 255), stop:0.596591 rgba(194, 194, 194, 255), stop:0.602273 rgba(65, 65, 65, 255), stop:1 rgba(65, 65, 65, 255));
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_QJDir">
+   <property name="geometry">
+    <rect>
+     <x>187</x>
+     <y>18</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>闭塞分区</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_QJDir">
+   <property name="geometry">
+    <rect>
+     <x>279</x>
+     <y>15</y>
+     <width>101</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:solid;
+border-width: 4px;
+border-color:qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(122, 122, 122, 255), stop:0.596591 rgba(194, 194, 194, 255), stop:0.602273 rgba(65, 65, 65, 255), stop:1 rgba(65, 65, 65, 255)) qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 rgba(184, 184, 184, 255), stop:0.636364 rgba(231, 231, 231, 255), stop:0.647727 rgba(170, 170, 170, 255), stop:1 rgba(170, 170, 170, 255)) qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(184, 184, 184, 255), stop:0.636364 rgba(231, 231, 231, 255), stop:0.647727 rgba(170, 170, 170, 255), stop:1 rgba(170, 170, 170, 255)) qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 rgba(122, 122, 122, 255), stop:0.596591 rgba(194, 194, 194, 255), stop:0.602273 rgba(65, 65, 65, 255), stop:1 rgba(65, 65, 65, 255));
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_YZCom">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>60</y>
+     <width>75</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.954273, stop:0 rgba(255, 255, 255, 255), stop:0.477273 rgba(227, 227, 227, 255), stop:1 rgba(230, 230, 230, 255));
+	border-style: outset;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: black;
+}
+QPushButton::hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(225, 225, 225, 255), stop:0.494318 rgba(198, 198, 198, 255), stop:1 rgba(225, 225, 225, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: blue;
+}
+
+QPushButton::pressed
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(185, 185, 185, 255), stop:0.494318 rgba(163, 163, 163, 255), stop:1 rgba(172, 172, 172, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	padding-left:2px;
+    padding-top:1px;
+}</string>
+   </property>
+   <property name="text">
+    <string>验证命令</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ZXCom">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>60</y>
+     <width>75</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:0.954273, stop:0 rgba(255, 255, 255, 255), stop:0.477273 rgba(227, 227, 227, 255), stop:1 rgba(230, 230, 230, 255));
+	border-style: outset;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: black;
+}
+QPushButton::hover
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(225, 225, 225, 255), stop:0.494318 rgba(198, 198, 198, 255), stop:1 rgba(225, 225, 225, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: blue;
+}
+
+QPushButton::pressed
+{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(185, 185, 185, 255), stop:0.494318 rgba(163, 163, 163, 255), stop:1 rgba(172, 172, 172, 255));
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+	border-color: black;
+	padding-left:2px;
+    padding-top:1px;
+}</string>
+   </property>
+   <property name="text">
+    <string>执行命令</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_MLFKJG">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>110</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>新宋体</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>命令反馈结果</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_MLFKJG">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>110</y>
+     <width>261</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-style:solid;
+border-width: 4px;
+border-color:qlineargradient(spread:pad, x1:1, y1:0, x2:1, y2:1, stop:0 rgba(122, 122, 122, 255), stop:0.596591 rgba(194, 194, 194, 255), stop:0.602273 rgba(65, 65, 65, 255), stop:1 rgba(65, 65, 65, 255)) qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:0, stop:0 rgba(184, 184, 184, 255), stop:0.636364 rgba(231, 231, 231, 255), stop:0.647727 rgba(170, 170, 170, 255), stop:1 rgba(170, 170, 170, 255)) qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(184, 184, 184, 255), stop:0.636364 rgba(231, 231, 231, 255), stop:0.647727 rgba(170, 170, 170, 255), stop:1 rgba(170, 170, 170, 255)) qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0 rgba(122, 122, 122, 255), stop:0.596591 rgba(194, 194, 194, 255), stop:0.602273 rgba(65, 65, 65, 255), stop:1 rgba(65, 65, 65, 255));
+</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JsJ_Maindlg</class>
+ <widget class="QWidget" name="JsJ_Maindlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#JsJ_Maindlg{
+		background-image: url(:/new/jsj/rc/目录/背景.png);
+
+}
+	
+</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>460</y>
+     <width>1408</width>
+     <height>255</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="UserManagerBtn">
+      <property name="minimumSize">
+       <size>
+        <width>269</width>
+        <height>253</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>269</width>
+        <height>253</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>OpenHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/new/jsj/rc/目录/用户管理.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="minimumSize">
+       <size>
+        <width>98</width>
+        <height>87</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>98</width>
+        <height>87</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/new/jsj/rc/目录/箭头.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="DDZXBtn">
+      <property name="minimumSize">
+       <size>
+        <width>269</width>
+        <height>253</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>269</width>
+        <height>253</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>OpenHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/new/jsj/rc/目录/调度中心.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="minimumSize">
+       <size>
+        <width>98</width>
+        <height>87</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>98</width>
+        <height>87</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/new/jsj/rc/目录/箭头.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ZCGLBtn">
+      <property name="minimumSize">
+       <size>
+        <width>269</width>
+        <height>253</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>269</width>
+        <height>253</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>OpenHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/new/jsj/rc/目录/站场管理.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="minimumSize">
+       <size>
+        <width>98</width>
+        <height>87</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>98</width>
+        <height>87</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/new/jsj/rc/目录/箭头.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="KSGLBtn">
+      <property name="minimumSize">
+       <size>
+        <width>269</width>
+        <height>253</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>269</width>
+        <height>253</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>OpenHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/new/jsj/rc/目录/考试管理.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1470</x>
+     <y>140</y>
+     <width>310</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>151</width>
+        <height>65</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>151</width>
+        <height>65</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>OpenHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/new/jsj/rc/登录界面/维护.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="minimumSize">
+       <size>
+        <width>151</width>
+        <height>65</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>151</width>
+        <height>65</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>OpenHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/new/jsj/rc/登录界面/退出.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

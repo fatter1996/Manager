@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>jsj_jhxfdlg</class>
+ <widget class="QWidget" name="jsj_jhxfdlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1920</width>
+    <height>1080</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QTimeEdit{
+	background-color: rgb(0, 85, 127);
+	padding-left: 8px;
+	border-top:2px inset rgb(180, 180, 180);
+	border-left:2px inset rgb(180, 180, 180);
+	border-bottom:2px inset rgb(240, 240, 240);
+	border-right:2px inset rgb(240, 240, 240);
+	color: rgb(255, 255, 255);
+	font: 14pt &quot;黑体&quot;;
+}
+QPushButton{
+	font: 14pt &quot;黑体&quot;;
+	border-image: url(:/Pictures/Normal.png);
+}
+QPushButton:hover{border-image: url(:/Pictures/hover.png);
+                       color:rgb(0,255，255);
+}
+QPushButton:pressed{
+	border-image: url(:/Pictures/press.png);                 ;
+}
+QLineEdit{
+		background-color: rgb(0, 85, 127);
+	padding-left: 8px;
+	border-top:2px inset rgb(180, 180, 180);
+	border-left:2px inset rgb(180, 180, 180);
+	border-bottom:2px inset rgb(240, 240, 240);
+	border-right:2px inset rgb(240, 240, 240);
+	font: 13pt &quot;黑体&quot;;
+color: rgb(255, 255, 255);
+}
+
+QComboBox{
+	font: 14pt &quot;黑体&quot;;
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 85, 127);
+	border: 1px solid #A0A0A0; /* 边框宽度为1px，颜色为#A0A0A0 */
+}
+QComboBox::down-arrow {
+
+image:url(:/new/jsj/rc/新增/下拉箭头.png);
+
+ }
+
+ QComboBox::drop-down {
+
+     border:none;
+
+ padding-right:4px;
+
+ }
+
+QComboBox QAbstractItemView{
+
+  outline:0px;
+
+color:rgb(220,220,220);
+
+background-color:rgb(37,86,159);
+
+border:1px solid rgba(143,211,249,127);
+
+border-bottom-right-radius:4px;
+
+border-bottom-left-radius:4px;
+
+ }
+
+QComboBox QAbstractItemView::item{
+
+height:26px;
+
+background-color:rgba(143,211,249,38);
+
+ }
+
+ QComboBox QAbstractItemView::item:selected{
+
+background-color:rgb(26,138,219);
+ }
+QDateEdit{
+	background-color: rgb(0, 85, 127);
+	padding-left: 8px;
+	border-top:2px inset rgb(180, 180, 180);
+	border-left:2px inset rgb(180, 180, 180);
+	border-bottom:2px inset rgb(240, 240, 240);
+	border-right:2px inset rgb(240, 240, 240);
+color: rgb(255, 255, 255);
+	font: 13pt &quot;黑体&quot;;
+}
+QComboBox:!enabled{
+	background-color: rgb(240, 240, 240);
+	padding-left: 8px;
+	border-top:2px inset rgb(180, 180, 180);
+	border-left:2px inset rgb(180, 180, 180);
+	border-bottom:2px inset rgb(240, 240, 240);
+	border-right:2px inset rgb(240, 240, 240);
+	font: 10pt &quot;黑体&quot;;
+}
+QLabel{
+	color: rgb(255, 255, 255);
+font: 14pt &quot;黑体&quot;;
+}</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>150</y>
+     <width>1822</width>
+     <height>124</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="minimumSize">
+       <size>
+        <width>151</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>151</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+      </property>
+      <property name="text">
+       <string>类型和时间</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="minimumSize">
+       <size>
+        <width>1820</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1820</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame#frame_2{
+	background-color: rgba(18, 75, 105, 80);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::WinPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>506</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_12">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <item>
+           <widget class="QLabel" name="label_11">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>接发车类型</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="jfc_TypeCombo">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>1061</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_15">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_14">
+          <item>
+           <widget class="QLabel" name="label_14">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>到达时间</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QDateEdit" name="arrive_">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTimeEdit" name="timeEdit_2">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_13">
+          <item>
+           <widget class="QLabel" name="label_13">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>发车时间</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QDateEdit" name="fachetime_">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTimeEdit" name="timeEdit">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>1822</width>
+     <height>134</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="minimumSize">
+       <size>
+        <width>171</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>171</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+      </property>
+      <property name="text">
+       <string>计划号和车次信息</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame_3">
+      <property name="minimumSize">
+       <size>
+        <width>1820</width>
+        <height>110</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1820</width>
+        <height>110</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame#frame_3{
+	background-color: rgba(18, 75, 105, 80);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::WinPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>1331</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_9">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_6">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>车站名称</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="ChezhanCombo">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLabel" name="label_7">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>超限信息</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="cx_combo">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>牵引类型</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="qytype_Combo">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>运行类型</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="yxlx_Combo">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <item>
+           <widget class="QLabel" name="label_10">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>车次类型</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="CCLX_Combo">
+            <property name="minimumSize">
+             <size>
+              <width>210</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>210</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>506</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>计划号</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="JIhuaNumber_Edit">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>车次号</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="checi_Edit">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>280</y>
+     <width>1822</width>
+     <height>124</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="minimumSize">
+       <size>
+        <width>171</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>171</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+      </property>
+      <property name="text">
+       <string>股道方向</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="minimumSize">
+       <size>
+        <width>1820</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1820</width>
+        <height>100</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame#frame{
+	background-color: rgba(18, 75, 105, 80);
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::WinPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>867</width>
+         <height>44</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout_19">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_16">
+          <item>
+           <widget class="QLabel" name="label_15">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>股道</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="gudaoCombo">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_17">
+          <item>
+           <widget class="QLabel" name="label_16">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>接车方向</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="jcfx_combo">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_18">
+          <item>
+           <widget class="QLabel" name="label_17">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>31</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;黑体&quot;;</string>
+            </property>
+            <property name="text">
+             <string>发车方向</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="fcfx_combo">
+            <property name="minimumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>150</width>
+              <height>30</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>410</y>
+     <width>620</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_11">
+    <item>
+     <widget class="QPushButton" name="AddButton">
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>OpenHandCursor</cursorShape>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>添加</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="DelBtn">
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>OpenHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>删除</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="MLXFBtn">
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>OpenHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>命令下发</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="cancleBtn">
+      <property name="minimumSize">
+       <size>
+        <width>150</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>150</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="cursor">
+       <cursorShape>OpenHandCursor</cursorShape>
+      </property>
+      <property name="text">
+       <string>取消</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>480</y>
+     <width>1921</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView {
+    color: white;                                       /*表格内文字颜色*/
+    gridline-color: black;                              /*表格内框颜色*/
+	font: 15pt &quot;黑体&quot;;
+    background-color: rgba(18, 81, 116, 180);               /*表格内背景色*/
+    alternate-background-color: rgb(64, 64, 64);
+    selection-color: white;                             /*选中区域的文字颜色*/
+    selection-background-color: rgb(77, 77, 77);        /*选中区域的背景色*/
+    border: 2px groove gray;
+    border-radius: 0px;
+    padding: 2px 4px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>450</y>
+     <width>1921</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	background-color: rgba(18, 75, 105, 80);</string>
+   </property>
+   <property name="text">
+    <string>编辑区</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>780</y>
+     <width>1921</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">	background-color: rgba(18, 75, 105, 80);</string>
+   </property>
+   <property name="text">
+    <string>下发区</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>810</y>
+     <width>1911</width>
+     <height>139</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableView {
+    color: white;                                       /*表格内文字颜色*/
+    gridline-color: black;                              /*表格内框颜色*/
+	font: 15pt &quot;黑体&quot;;
+    background-color: rgba(18, 81, 116, 180);               /*表格内背景色*/
+    alternate-background-color: rgb(64, 64, 64);
+    selection-color: white;                             /*选中区域的文字颜色*/
+    selection-background-color: rgb(77, 77, 77);        /*选中区域的背景色*/
+    border: 2px groove gray;
+    border-radius: 0px;
+    padding: 2px 4px;
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

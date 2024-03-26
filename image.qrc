@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Pictures/button.png</file>
+        <file>Pictures/call.png</file>
+        <file>Pictures/menue.png</file>
+        <file>Pictures/menue_check.png</file>
+        <file>Pictures/video.png</file>
+        <file>Pictures/弹出.png</file>
+        <file>Pictures/隐藏.png</file>
+        <file>Pictures/Menu.png</file>
+        <file>Pictures/MenuItem.png</file>
+        <file>Pictures/退出.png</file>
+        <file>Pictures/Menu_hover.png</file>
+        <file>Pictures/确认.png</file>
+        <file>Pictures/hover.png</file>
+        <file>Pictures/Normal.png</file>
+        <file>Pictures/press.png</file>
+        <file>Pictures/全场重置.png</file>
+        <file>Pictures/站场重置.png</file>
+        <file>Pictures/sub_hover.png</file>
+        <file>Pictures/sub_Normal.png</file>
+        <file>Pictures/sub_press.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>J_logindlg</class>
+ <widget class="QWidget" name="J_logindlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>588</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new/jsj/rc/登录界面/登录背景.png);</string>
+  </property>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>jsj_Self_Startdlg</class>
+ <widget class="QWidget" name="jsj_Self_Startdlg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>902</width>
+    <height>374</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#jsj_Self_Startdlg{
+	background-color: rgb(3, 59, 96);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>330</y>
+     <width>254</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="AllSelectBtn">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 98, 0);
+font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>一键全选</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(41,50, 225);
+font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>一键启动</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="minimumSize">
+       <size>
+        <width>80</width>
+        <height>20</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 6, 2);
+font: 87 12pt &quot;Arial Black&quot;;
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>取消</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>901</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgba(18, 81, 116, 180);
+font: 10pt &quot;黑体&quot;;
+color: rgb(255, 255, 255);
+
+color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

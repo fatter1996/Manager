@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Pictures/Checked.jpg</file>
+        <file>Pictures/UnChecked.jpg</file>
+        <file>Pictures/FunBtnDOWN_Thkb.jpg</file>
+        <file>Pictures/FunBtnUP_Thkb.jpg</file>
+        <file>Pictures/DLB_0.jpg</file>
+        <file>Pictures/DLB_1_5.jpg</file>
+        <file>Pictures/DLB_3_9.jpg</file>
+        <file>Pictures/LED_Black.jpg</file>
+        <file>Pictures/LED_Green.jpg</file>
+        <file>Pictures/LED_Red.jpg</file>
+        <file>Pictures/LED_White.jpg</file>
+        <file>Pictures/LED_Yellow.jpg</file>
+        <file>Pictures/icon.png</file>
+    </qresource>
+</RCC>
